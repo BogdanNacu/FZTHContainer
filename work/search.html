@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <header>Booking</header>
+    <nav id="home">
+        <a href="booking.html">Home</a>
+        <a href="search.html">Search</a>
+        <a href="booking.html">Hotel List</a>
+    </nav>
+    <aside>
+        <p>Aside</p>
+    </aside>
+
+    <article>
+        <section id="search">
+            <form>
+                <datalist id="cities">
+                    <option value="Iasi"></option>
+                    <option value="Bucuresti"></option>
+                    <option value="Cluj"></option>
+                </datalist>
+
+                <label for="city">City</label>
+                <input list="cities" id="city" required />
+
+                <label for="check_in">Check in:</label>
+                <input type="date" id="check_in" required />
+
+                <label for="check_out">Check out:</label>
+                <input type="date" id="check_out" required />
+
+                <input type="submit" />
+            </form>
+        </section>
+    </article>
+
+    <footer>From Zero to Hero Teamnet Iasi</footer>
+</body>
+</html>

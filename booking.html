@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Booking</title>
+</head>
+<body>
+    <header>Booking</header>
+    <nav id="home">
+        <a href="#home">Home</a>
+        <a href="#search">Search</a>
+        <a href="#hotels_table">Hotel List</a>
+        <a href="hotels.html">Add Hotel</a>
+    </nav>
+    <aside>
+        <p>Aside</p>
+    </aside>
+    <article>
+        <section>
+            <p title="P Elem">Title</p>
+        </section>
+
+        <section id="search">
+            <form>
+                <datalist id="cities">
+                    <option value="Iasi"></option>
+                    <option value="Bucuresti"></option>
+                    <option value="Cluj"></option>
+                </datalist>
+
+                <label for="city">City</label>
+                <input list="cities" id="city" required />
+
+                <label for="check_in">Check in:</label>
+                <input type="date" id="check_in" required />
+
+                <label for="check_out">Check out:</label>
+                <input type="date" id="check_out" required />
+
+                <input type="submit" />
+            </form>
+        </section>
+
+        <section id="hotels_table">
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>Site</th>
+                    <th>Rooms</th>
+                    <th>Stars</th>
+                </tr>
+                <tr>
+                    <td>Traian</td>
+                    <td>foo</td>
+                    <td>bar</td>
+                    <td>
+                        <a href="http://www.google.com" target="_blank"> Baz</a>
+                    </td>
+                    <td>4</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Intecont</td>
+                    <td>foo</td>
+                    <td>bar</td>
+                    <td>baz</td>
+                    <td>4</td>
+                    <td>
+                        <img src="star.jpg" height="50" width="50"/>
+                        <img src="star.jpg" height="50" width="50"/>
+                        <img src="star.jpg" height="50" width="50"/>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <br />
+        <br />
+        <br />
+        <section id="last_minute">
+            <table border="1">
+                <tr>
+                    <th>Hotel Name</th>
+                    <th>Hotel Picture</th>
+                    <th>Discount</th>
+                </tr>
+                <tr>
+                    <td>Azure</td>
+                    <td>dsa</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>Intercontinental</td>
+                    <td>dsa</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Ramada</td>
+                    <td>dsa</td>
+                    <td>35%</td>
+                </tr>
+            </table>
+        </section>
+    </article>
+    <footer>From Zero to Hero Teamnet Iasi</footer>
+</body>
+</html>

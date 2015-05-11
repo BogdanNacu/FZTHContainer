@@ -1,0 +1,83 @@
+﻿p, footer {
+    color: chocolate;
+}
+
+body {
+    background-color:bisque;
+}
+
+header {
+    font-size: 45px;
+    font-family:Tahoma;
+    margin: 5px;
+    height: 8%;
+    text-transform: capitalize;
+}
+
+nav > a {
+    font-style:oblique;
+    font-size: 17px;
+    margin: 2px;
+    padding: 3px;
+    border: ridge;
+    border-color: chocolate;
+    border-radius: 5px;
+    background-color: floralwhite;
+    opacity: 0.8;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    transform: translate(50px, 100 px);
+}
+
+article {
+}
+
+body {
+    /*background-image: url(wood_hires.jpg);
+    background-position: center;*/
+    height: 1024px;
+    width: 760px;
+}
+
+table {
+    background-color: tan;
+    background-size: auto 150px;
+    border: groove;
+}
+
+th {
+    color: maroon;
+    background-color: sandybrown;
+}
+
+aside {
+    float: left;
+    height: 80%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+html {
+    height: 100%;
+}
+
+#hotels_table tr:nth-child(3){
+    color:yellow;
+}
+
+body {
+    height: 90%;
+}
+
+tr:nth-child(even) {
+    color: blueviolet;
+}
